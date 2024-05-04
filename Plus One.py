@@ -1,6 +1,12 @@
-num = [1,2,3]
-holding_num = num[-1]
-holding_num = holding_num+1
-num.pop()
-num.append(holding_num)
-print(holding_num)
+nums = [1,9,9]
+string =''
+for num in nums:
+    num = str(num)
+    string=string+num
+string=int(string)
+string=string+1
+string=str(string)
+new_string=[]
+for z in string:
+    new_string.append(z)
+print(new_string)
